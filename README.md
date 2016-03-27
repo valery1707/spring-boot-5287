@@ -1,5 +1,7 @@
 Test project for issue [Spring boot #5287](https://github.com/spring-projects/spring-boot/issues/5287).
 
+[![Build Status](https://travis-ci.org/valery1707/spring-boot-5287.svg?branch=master)](https://travis-ci.org/valery1707/spring-boot-5287)
+
 Same code work different in different embedded application servers:
 * Tomcat 8.0: accessible both resources: `/src/main/resources/static` and `/src/main/webapp`
 * Jetty 9.2: accessible both resources: `/src/main/resources/static` and `/src/main/webapp`
