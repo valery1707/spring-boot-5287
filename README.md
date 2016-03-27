@@ -1,6 +1,7 @@
 Test project for issue [Spring boot #5287](https://github.com/spring-projects/spring-boot/issues/5287).
 
 [![Build Status](https://travis-ci.org/valery1707/spring-boot-5287.svg?branch=master)](https://travis-ci.org/valery1707/spring-boot-5287)
+[![Build status](https://ci.appveyor.com/api/projects/status/pc3v0a9m2dnmdhmg/branch/master?svg=true)](https://ci.appveyor.com/project/valery1707/spring-boot-5287/branch/master)
 
 Same code work different in different embedded application servers:
 * Tomcat 8.0: accessible both resources: `/src/main/resources/static` and `/src/main/webapp`
